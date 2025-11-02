@@ -1,9 +1,12 @@
-# 🧠 Data Mining Project – Analyse de Produits & Segmentation Clients
 
-Ce projet explore les données d’un site e-commerce afin d’**analyser les produits**, **segmenter les clients** et **détecter les anomalies**.  
-Il se divise en deux volets complémentaires :  
-1. **Analyse de Produits**  
-2. **Segmentation des Clients & Détection d’Anomalies**
+# 🧠 Data Mining Project – Analyse de Produits, Segmentation Clients & Analyse Temporelle
+
+Ce projet explore les données d’un site e-commerce afin d’**analyser les produits**, **segmenter les clients**, et **étudier l’évolution temporelle des ventes**.  
+Il se compose de **trois volets complémentaires** :
+
+1. **Analyse de Produits** – identification des profils et anomalies produits  
+2. **Segmentation des Clients & Détection d’Anomalies** – classification comportementale des clients  
+3. **Analyse Temporelle des Produits & Embeddings** – exploration des tendances, saisonnalités et représentations vectorielles
 
 ---
 
