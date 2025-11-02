@@ -1,4 +1,4 @@
-# Data_Mining_Project
+# Analyse_de_produit
 
 * clustering_produit.ipynb: notebook de clustering
 * detection_anomalies_produits2.ipynb: notebook de detection d'anomalies produits
