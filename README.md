@@ -26,3 +26,28 @@ Variables : `StockCode`, `Description`, `Quantity`, `UnitPrice`, `InvoiceDate`, 
 
 ## 🧠 Outils
 Python (pandas, scikit-learn, matplotlib), Jupyter Notebook, Git/GitHub.
+
+# 👥 Segmentation des Clients & Détection d’Anomalies
+
+## 🎯 Objectif
+Segmenter les **clients** selon leurs **comportements d’achat** et détecter les **transactions atypiques** afin d’améliorer la compréhension et la fidélisation client.
+
+---
+
+## ⚙️ Étapes principales
+1. **Analyse RFM** : calcul de la **Récence**, **Fréquence** et **Montant** pour chaque client.  
+2. **Clustering** : comparaison de **K-Means**, **DBSCAN** et **GMM** pour regrouper les clients en profils homogènes.  
+3. **Détection d’anomalies** : utilisation d’**Isolation Forest** et **DBSCAN** pour repérer les comportements rares ou suspects.
+
+---
+
+## 📊 Résultats
+- **K-Means** : segmentation claire et équilibrée.  
+- **DBSCAN** : détection efficace des clients marginaux.  
+- **GMM** : capture des comportements intermédiaires.  
+- Les **anomalies** identifiées concernent des montants, retours ou commandes inhabituels.
+
+---
+
+## 🧠 Outils
+**Python**, **Pandas**, **Scikit-learn**, **Matplotlib**, **Seaborn**, **Jupyter Notebook**.
