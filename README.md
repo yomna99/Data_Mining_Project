@@ -56,5 +56,32 @@ Segmenter les **clients** selon leurs **comportements d’achat** et détecter l
 **Python**, **Pandas**, **Scikit-learn**, **Matplotlib**, **Seaborn**, **Jupyter Notebook**.
 
 ---
+# ⏱️ Partie 3 : Analyse Temporelle des Produits & Embeddings
 
+## 🎯 Objectif
+Analyser l’**évolution temporelle des ventes** pour détecter les **tendances**, **saisonnalités** et **similarités** entre produits à l’aide d’**embeddings temporels**.
+
+---
+
+## ⚙️ Méthodologie
+1. **Préparation temporelle** : agrégation des ventes par période (mois, saison) et calcul du chiffre d’affaires, des quantités et transactions.  
+2. **Analyse temporelle** : détection des **tendances** et **cycles saisonniers** via la décomposition des séries.  
+3. **Embeddings produits** : création de vecteurs de similarité, réduction de dimension (**PCA**, **t-SNE**) et **clustering** (K-Means, DBSCAN).  
+4. **Interprétation** : regroupement des produits selon leurs dynamiques (saisonniers, stables, en déclin).
+
+---
+
+## 📊 Résultats
+- Mise en évidence de **profils temporels distincts** : produits saisonniers, stables ou décroissants.  
+- Les **embeddings** révèlent des groupes de produits au **comportement similaire dans le temps**.
+
+---
+
+## 🧠 Outils
+Python, pandas, matplotlib, seaborn, scikit-learn, tslearn, Jupyter Notebook.
+
+## 👩‍💻 Projet réalisé par
+- **Yomna Hajji** – Partie 1 : Analyse des produits  
+- **Oulaiya Gaddari** – Partie 2 : Segmentation client  
+- **Karima Messaoudi** – Partie 3 : Analyse temporelle des produits
 
