@@ -1,53 +1,57 @@
-# 🛍️ Partie1: Analyse de Produits 
+# 🧠 Data Mining Project – Analyse de Produits & Segmentation Clients
 
-## 🎯 Objectif
-Analyser le **comportement des produits** d’un site e-commerce afin d’identifier les **anomalies**, regrouper les **profils similaires** et formuler des **recommandations commerciales**.
+Ce projet explore les données d’un site e-commerce afin d’**analyser les produits**, **segmenter les clients** et **détecter les anomalies**.  
+Il se divise en deux volets complémentaires :  
+1. **Analyse de Produits**  
+2. **Segmentation des Clients & Détection d’Anomalies**
 
 ---
 
-## 🧩 Données
+## 🛍️ Partie 1 : Analyse de Produits
+
+### 🎯 Objectif
+Analyser le **comportement des produits** pour identifier les **anomalies**, regrouper les **profils similaires** et proposer des **recommandations commerciales**.
+
+### 🧩 Données
 Jeu **Online Retail II** (2009–2011) – plus d’un million de transactions e-commerce britanniques.  
-Variables : `StockCode`, `Description`, `Quantity`, `UnitPrice`, `InvoiceDate`, `CustomerID`, `Country`.
+Variables principales :  
+`StockCode`, `Description`, `Quantity`, `UnitPrice`, `InvoiceDate`, `CustomerID`, `Country`.
 
----
-
-## ⚙️ Méthodologie
+### ⚙️ Méthodologie
 1. **Prétraitement** : nettoyage et agrégation par produit (prix moyen, quantité, chiffre d’affaires, taux de retour).  
 2. **Détection d’anomalies** :  
-   - *Isolation Forest* (anomalies modérées)  
-   - *DBSCAN* (cas extrêmes) → ~2 % de produits exclus.  
-3. **Segmentation (K-Means, GMM)** : 4 profils produits :  
+   - *Isolation Forest* → anomalies modérées  
+   - *DBSCAN* → cas extrêmes (~2 % de produits exclus)  
+3. **Segmentation (K-Means, GMM)** : identification de **4 profils produits** :  
    - **Dormants** : faible activité  
-   - **Stars** : forte demande  
-   - **Premium** : prix élevés, rotation faible  
-   - **Rotation moyenne** : ventes équilibrées  
+   - **Stars** : forte demande et ventes élevées  
+   - **Premium** : prix élevés, faible rotation  
+   - **Rotation moyenne** : ventes équilibrées
+
+### 🧠 Outils
+**Python** (pandas, scikit-learn, matplotlib), **Jupyter Notebook**, **Git/GitHub**.
 
 ---
 
-## 🧠 Outils
-Python (pandas, scikit-learn, matplotlib), Jupyter Notebook, Git/GitHub.
+## 👥 Partie 2 : Segmentation des Clients & Détection d’Anomalies
 
-# 👥 Segmentation des Clients & Détection d’Anomalies
+### 🎯 Objectif
+Segmenter les **clients** selon leurs **comportements d’achat** et détecter les **transactions atypiques** afin d’améliorer la **compréhension** et la **fidélisation** client.
 
-## 🎯 Objectif
-Segmenter les **clients** selon leurs **comportements d’achat** et détecter les **transactions atypiques** afin d’améliorer la compréhension et la fidélisation client.
-
----
-
-## ⚙️ Étapes principales
+### ⚙️ Étapes principales
 1. **Analyse RFM** : calcul de la **Récence**, **Fréquence** et **Montant** pour chaque client.  
 2. **Clustering** : comparaison de **K-Means**, **DBSCAN** et **GMM** pour regrouper les clients en profils homogènes.  
 3. **Détection d’anomalies** : utilisation d’**Isolation Forest** et **DBSCAN** pour repérer les comportements rares ou suspects.
 
----
-
-## 📊 Résultats
+### 📊 Résultats
 - **K-Means** : segmentation claire et équilibrée.  
 - **DBSCAN** : détection efficace des clients marginaux.  
 - **GMM** : capture des comportements intermédiaires.  
-- Les **anomalies** identifiées concernent des montants, retours ou commandes inhabituels.
+- Les **anomalies détectées** concernent des montants, retours ou commandes inhabituels.
+
+### 🧠 Outils
+**Python**, **Pandas**, **Scikit-learn**, **Matplotlib**, **Seaborn**, **Jupyter Notebook**.
 
 ---
 
-## 🧠 Outils
-**Python**, **Pandas**, **Scikit-learn**, **Matplotlib**, **Seaborn**, **Jupyter Notebook**.
+
